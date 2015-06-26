@@ -1,0 +1,9 @@
+# Linker script for libtest.so
+{
+  global:
+    foo_context_acquire;
+    foo_context_release;
+    foo_context_add;
+
+  local: *;
+};

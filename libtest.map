@@ -1,7 +1,0 @@
-# Linker script for libtest.so
-{
-  global:
-    test_lib_entrypoint;
-
-  local: *;
-};

@@ -1,3 +1,5 @@
 *~
 *.o
-*.so
+libfoo.so
+libfoo.so.0
+test-client
